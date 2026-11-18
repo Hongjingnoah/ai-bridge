@@ -1,0 +1,4 @@
+{
+  "DSH_CMD": "C:/path/to/DeepSeek Harness/resources/runtime/cli/bin/dsh.cmd",
+  "BRIDGE_PYTHON": "C:/path/to/python.exe"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "dsh-ai-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "boot.mjs",
+  "exports": { ".": "./boot.mjs", "./package.json": "./package.json" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

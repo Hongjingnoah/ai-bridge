@@ -1,0 +1,18 @@
+# Whitelist: ignore everything, then allow only the published files.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/local.config.example.json
+!/bin/
+!/lib/
+!/plugin/
+!/setup/
+!/test/
+
+# Never publish local state, logs or machine-specific config
+local.config.json
+state/
+work/
+*.log
+*.token
